@@ -6,6 +6,6 @@ class Todo {
     this.createdAt = DateTime.now();
   }
 
-  String title = "";
+  String title = "default data";
   DateTime? createdAt = DateTime.now();
 }
